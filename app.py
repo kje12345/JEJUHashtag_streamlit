@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-df = pd.read_csv("음식점_해시태그_비번.csv", sep=",")
+df = pd.read_csv("음식점_해시태그.csv", sep=",")
 
 keyword1 = st.text_input("제주도 어디로 여행가시나요?")
 keyword2 = st.text_input("출출한데 밥부터 먹고 시작해요. 먹고 싶은 거 있어요?")
