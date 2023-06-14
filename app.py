@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv("음식점_해시태그.csv", sep=",")
 
 keyword1 = st.text_input("제주도 어디로 여행가시나요? ex)제주시, 서귀포시")
-keyword2 = st.text_input("출출한데 밥부터 먹고 시작해요. 먹고 싶은 거 있어요? ex)회, 흑되지")
+keyword2 = st.text_input("출출한데 밥부터 먹고 시작해요. 먹고 싶은 거 있어요? ex)회, 흑돼지")
 keyword3 = st.text_input("밥 먹으면서 어떤 경치를 즐길까요? ex) 바다, 한라산")
 result = []
 
