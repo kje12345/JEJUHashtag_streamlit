@@ -14,8 +14,8 @@ if keyword1 and keyword2 and keyword3:
         if keyword1 in str(df['해시태그'][i]) and keyword2 in str(df['해시태그'][i]) and keyword3 in str(df['해시태그'][i]):
             result.append(df['명칭'][i])
                 
-    if len(result) == 0:
-    result.append("결과가 존재하지 않습니다.")
+        if len(result) == 0:
+        result.append("결과가 존재하지 않습니다.")
 
 for r in result:
     st.title(r)
